@@ -18,8 +18,8 @@ import {
   View,
 } from 'react-native';
 import ChallangeScreen from './src/screens/FirstScreen'
-import ChallangeScreen2 from './src/screens/SecondScreen'
-import ThirdScreen from './src/screens/ThirdScreen'
+import SecondScreen from './src/screens/SecondScreen'
+import Challange3 from './src/screens/ThirdScreen'
 
 import {
   Colors,
@@ -64,7 +64,7 @@ const App: () => Node = () => {
 
   return (
     <>
-      <ThirdScreen />
+      <Challange3 />
     </>
   );
 };
