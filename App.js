@@ -21,6 +21,7 @@ import ChallangeScreen from './src/screens/FirstScreen'
 import SecondScreen from './src/screens/SecondScreen'
 import Challange3 from './src/screens/ThirdScreen'
 import Challange4 from './src/screens/FourthScreen'
+import InstagramHomeScreen from './src/screens/InstagramHomeScreen'
 
 import {
   Colors,
@@ -65,7 +66,7 @@ const App: () => Node = () => {
 
   return (
     <>
-      <Challange4 />
+      <InstagramHomeScreen />
     </>
   );
 };
