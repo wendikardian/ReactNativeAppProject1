@@ -44,4 +44,14 @@ export const Feed = (props) => {
         </View>
         </View>
     )
+};
+
+export const Story = (props) => {
+    const {username, profile} = props
+    return(
+        <View style={{marginRight: 8, alignItems: 'center'}}>
+            <Image style={{width: 80, height: 80, borderRadius: 100}} source={profile} />
+            <Text>{username}</Text>
+        </View>
+    )
 }
